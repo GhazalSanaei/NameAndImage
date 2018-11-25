@@ -8,22 +8,14 @@
     tools:context=".MainActivity">
 
     <ImageView
-
-        android:id="@+id/myimage"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-
-
-
-
         android:src="@drawable/photo" />
 
 
     <TextView
-        android:id="@+id/myname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:text="Ghazal Sanaei"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
